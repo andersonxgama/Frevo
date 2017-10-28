@@ -1,0 +1,55 @@
+#top
+{
+	background-color: #CFCFCF;
+	width: 100%;
+}
+
+#logo_container
+{
+	max-width: 275px;
+	padding: 1em;
+}
+
+#logo_img
+{
+	max-width: 100%;
+	height: auto;
+}
+
+#top_icons_container
+{
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: row;
+}
+
+.top_icons_container
+{
+	max-width: 50px;
+}
+
+.top_icon_image
+{
+	max-width: 100%;
+	height: auto;
+}
+
+@media screen and (max-width: 600px)
+{
+    #top
+	{
+        display: flex;
+		flex-direction: column;
+    }
+
+    #logo_container
+	{
+        align-self: center;
+		max-width: 300px;
+    }
+	
+	#top_icons_container
+	{
+		display: none;
+	}
+}

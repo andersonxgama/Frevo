@@ -1,0 +1,66 @@
+nav
+{
+	background-color: #D10000;
+	display: flex;
+	justify-content: center;
+}
+
+.menu_nav
+{
+	display: inline-flex;
+	font-size: 20px;
+	padding: 0.5em;
+	padding-left: 1em;
+	font-family: 'Fredoka One', cursive;
+}
+
+.menu_nav:hover
+{
+	cursor: pointer;
+	color: #9C9C9C;
+}
+
+.menu_icons_container
+{
+	display: none;
+}
+
+.text_menu
+{
+	color: #FFFFFF;
+}
+
+@media screen and (max-width: 600px)
+{
+    .menu_nav
+	{
+		display: flex;
+		flex-direction: row;
+		width: 300px;
+		border: 0.1em solid #CFCFCF;
+    }
+	
+    .menu_icons_container
+	{	
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 50%;
+		text-align: center;
+    }
+
+	.image_menu
+	{
+		max-width: 100%;
+		height: auto;
+	}
+
+    .menu_title_container
+	{	
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 50%;
+		text-align: center;
+    }
+}

@@ -1,0 +1,65 @@
+#produtos_title
+{
+	color: #D10000;
+	font-family: 'Cabin Condensed', sans-serif;
+	font-size: 28px;
+	padding: 1em;
+	text-align: justify;
+	text-align: center;
+}
+
+#dashes
+{
+	border: 1px dashed #D10000;
+}
+
+#produtos_container
+{
+	background-color: #CFCFCF;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+}
+
+#refrigerantes_container
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 4em 0em 2em 0em;
+}
+
+#cerveja_container
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 4em 0em 2em 0em;
+}
+
+.icon_produtos
+{
+	cursor: pointer;
+	max-width: 100%;
+	height: auto;
+}
+
+.title_icon_produtos
+{
+	color: #D10000;
+	cursor: pointer;
+	font-family: 'Fredoka One', cursive;
+	font-size: 25px;
+	padding: 1em;
+}
+
+@media screen and (max-width: 600px)
+{
+	#produtos_container
+	{
+		flex-direction: column;
+	}
+}

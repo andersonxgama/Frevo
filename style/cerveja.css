@@ -1,0 +1,23 @@
+#bossa_nova_container
+{	
+	text-align: center;
+	width: 60%;
+	align-self: center;
+}
+
+#bossa_nova_title
+{
+	color: #D10000;
+	font-family: 'Fredoka One', cursive;
+	font-size: 25px;
+}
+
+#bossa_nova_desc
+{
+	color: black;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}

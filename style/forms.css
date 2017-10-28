@@ -1,0 +1,240 @@
+#venda_frevo_container
+{
+	display: flex;
+	justify-content: space-around;
+	background-color: #D10000;
+}
+
+#venda_frevo_desc_container
+{	
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	background-color: #D10000;
+}
+
+#trabalhe_conosco_container
+{
+	display: flex;
+	justify-content: space-around;
+	background-color: #CFCFCF;
+}
+
+#trabalhe_conosco_desc_container
+{	
+	background-color: #CFCFCF;
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+
+.title
+{
+	color: #FFFFFF;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	padding: 0.5em 0em 0.5em 1em;
+}
+
+hr
+{
+	border: 1px dashed #FFFFFF;
+}
+
+.desc
+{
+	color: #FFFFFF;
+	font-family: 'Cabin Condensed', sans-serif;
+	font-size: 22px;
+	padding: 1em;
+	text-align: justify;
+}
+
+#p_align_center
+{
+	text-align: center;
+}
+
+#trabalhe_conosco_desc_container > h3
+{
+	color: #D10000;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	padding: 0.5em 0em 0.5em 1em;
+}
+
+#trabalhe_conosco_desc_container > hr
+{
+	border: 1px dashed #D10000;
+}
+
+#trabalhe_conosco_desc_container > span
+{
+	color: #D10000;
+}
+
+#form_trabalhe_conosco > .form_title
+{
+	color: #D10000;
+}
+
+#btn_enviar_trabalhe
+{
+	background-image: linear-gradient(to bottom, #D10000, #920000);
+	border: 0px;
+	border-radius: 10px;
+	color: #ffffff;
+	cursor: pointer;
+	font-family: Arial;
+	font-size: 16px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	width: 115px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	align-self: center;
+}
+
+#btn_enviar_trabalhe:active
+{
+	background: #8E1111;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.image_desc
+{
+	align-self: center;
+}
+
+#form_venda_frevo
+{
+	display: flex;
+	flex-direction: column;
+	padding: 1em 5em 5.5em 0em;
+	width: 20%;
+}
+
+#form_trabalhe_conosco
+{
+	display: flex;
+	flex-direction: column;
+	padding: 1em 5em 4.5em 0em;
+	width: 20%;
+}
+
+.form_title
+{
+	color: #FFFFFF;
+	font-family: 'Fjalla One', sans-serif;
+	font-weight: bold;
+	padding-top: 1em;
+}
+
+.form_text_field
+{
+	color: #000000;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+	height: 1.5em;
+	border: solid 1px #dcdcdc;
+	border-radius: 5px;
+	transition: box-shadow 0.3s, border 0.3s;
+	width: 125%;
+}
+
+.form_message
+{
+	color: #000000;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	resize: none;
+	border: solid 1px #dcdcdc;
+	border-radius: 5px;
+	transition: box-shadow 0.3s, border 0.3s;
+	width: 125%;
+}
+
+input:focus
+{
+	border: solid 0.5px #B1B1B1;
+	box-shadow: 0 0 5px 1px #969696;
+}
+
+#btn_enviar_venda
+{
+	background-image: linear-gradient(to bottom, #CFCFCF, #888888);
+	border: 0px;
+	border-radius: 10px;
+	color: #910000;
+	cursor: pointer;
+	font-family: Arial;
+	font-size: 16px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	width: 115px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	align-self: center;
+}
+
+#btn_enviar_venda:active
+{
+	background: #8F8F8F;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 600px)
+{
+	#venda_frevo_container
+	{
+		flex-direction: column;
+	}
+	
+	#trabalhe_conosco_container
+	{
+		flex-direction: column;
+	}
+	
+	#venda_frevo_desc_container
+	{	
+		width: 100%;
+	}
+	
+	#trabalhe_conosco_desc_container
+	{
+		width: 100%;
+	}
+
+	h3
+	{
+		font-size: 22px;
+	}
+	
+	.desc
+	{
+		font-size: 20px;
+	}
+	
+	#form_venda_frevo
+	{
+		align-self: center;
+		width: 60%;
+	}
+
+	#form_trabalhe_conosco
+	{
+		align-self: center;
+		width: 60%;
+	}
+	
+	#btn_enviar_venda, #btn_enviar_trabalhe
+	{
+		margin-top: 1em;
+	}
+}

@@ -1,0 +1,12 @@
+#slide_container
+{
+	align-self: center;
+	max-width: 100%;
+}
+
+.img_slide
+{
+	max-width: 100%;
+	height: auto;
+	display: none;
+}
